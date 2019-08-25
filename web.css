@@ -4,7 +4,12 @@
 }
 
 .row a:hover {
-    background-color: gray;
+    font-family: unset;
+    color: black;
+}
+
+.nav-item li a:hover {
+    background-color: powderblue;
 }
 
 .marg1 {
@@ -21,10 +26,6 @@
 
 .navbar {
     background-color: powderblue !important;
-}
-
-.nav-item dropdown a:hover {
-    color: coral;
 }
 
 .carousel-inner img {
@@ -57,4 +58,8 @@
 .num4 {
     color: #ee4d2d;
     font-size: 18px;
+}
+
+.card:hover {
+    border: solid 1px royalblue;
 }
