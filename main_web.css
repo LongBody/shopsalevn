@@ -1,6 +1,14 @@
+.a {
+    text-decoration: none;
+}
+
 .row a {
     color: black;
     text-decoration: none;
+}
+
+.navbar {
+    background-color: powderblue !important;
 }
 
 .row a:hover {
@@ -38,10 +46,6 @@
     height: 2px;
 }
 
-.navbar {
-    background-color: powderblue !important;
-}
-
 .carousel-inner img {
     width: 100%;
     height: 300px;
@@ -75,5 +79,5 @@
 }
 
 .card:hover {
-    border: solid 1px royalblue;
+    border: solid 1px navy;
 }
