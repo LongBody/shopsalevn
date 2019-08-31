@@ -18,9 +18,25 @@
 .card-img-top-1 {
     width: 100%;
     object-fit: cover;
-    height: 14vw;
+    height: 20vw;
 }
 
 .card:hover {
     border: solid 1px coral;
+}
+
+.num1 {
+    background-color: white;
+    color: powderblue;
+    width: 300px;
+}
+
+a.num2 {
+    padding: 4px 200px;
+    cursor: pointer;
+    background-color: papayawhip;
+}
+
+a.num2:hover {
+    background-color: wheat;
 }
