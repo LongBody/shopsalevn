@@ -15,12 +15,6 @@
     background-color: powderblue;
 }
 
-.card-img-top-1 {
-    width: 100%;
-    object-fit: cover;
-    height: 20vw;
-}
-
 .card:hover {
     border: solid 1px coral;
 }
@@ -39,4 +33,10 @@ a.num2 {
 
 a.num2:hover {
     background-color: wheat;
+}
+
+.card-img-top-1 {
+    height: 20em;
+    object-fit: cover;
+    max-width: 90%;
 }
