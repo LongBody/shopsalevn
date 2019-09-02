@@ -26,17 +26,22 @@
 }
 
 a.num2 {
-    padding: 4px 200px;
+    padding: 5px 200px;
     cursor: pointer;
     background-color: papayawhip;
-}
-
-a.num2:hover {
-    background-color: wheat;
 }
 
 .card-img-top-1 {
     height: 20em;
     object-fit: cover;
-    max-width: 90%;
+}
+
+.xem_them {
+    width: 100%;
+    background-color: papayawhip;
+    cursor: pointer;
+}
+
+button.xem_them:hover {
+    background-color: wheat;
 }
