@@ -8,12 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./do_choi.css">
+    <script src="https://kit.fontawesome.com/eac90bf8e0.js" crossorigin="anonymous"></script>
     <link rel="icon" href="./img/icon_Web.gif" type="image/gif">
+
+    <style>
+        #search_advance {
+            display: none;
+        }
+    </style>
+
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <div class="col-lg-2"></div>
+
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
@@ -23,7 +34,7 @@
 
 
             <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav1 ">
                     <li class="nav-item active">
                         <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -32,15 +43,60 @@
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mục Sản Phẩm</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownId">
-                            <li> <a class="dropdown-item" href="#">Quần-Áo</a></li>
-                            <li> <a class="dropdown-item" href="https://www.youtube.com/watch?v=X-sIsWrqAaU">Giày-Dép</a></li>
+                        <ul class="dropdown-menu " aria-labelledby="dropdownId">
+                            <li> <a class="dropdown-item" href="#">Quần-Áo</a>
+
+                                <ul class=" sub-menu">
+                                    <li class="active"> <a>Quần Áo Nam</a></li>
+                                    <li> <a>Quần Áo Nữ</a></li>
+                                    <li> <a>Quần Áo Trẻ Em</a></li>
+                                    <li> <a>Quần Áo Phong Cách</a></li>
+                                </ul>
+
+
+                            </li>
+
+
+                            <li> <a class="dropdown-item" href="https://www.youtube.com/watch?v=X-sIsWrqAaU">Giày-Dép</a>
+
+                                <ul class="sub-menu">
+                                    <li class="active"> <a>Dép Nam</a></li>
+                                    <li> <a>Dép Nữ</a></li>
+                                    <li> <a>Adidas</a></li>
+                                    <li> <a>Guốc</a></li>
+                                    <li> <a>Giày Cao Gót</a></li>
+                                </ul>
+                            </li>
                             <li class="divider"></li>
-                            <li><a class="dropdown-item" href="#">Thiết Bị Điện Tử</a></li>
+                            <li><a class="dropdown-item" href="#">Thiết Bị Điện Tử</a>
+                                <ul class="sub-menu">
+                                    <li class="active"> <a>TiVi</a></li>
+                                    <li> <a>Loa Tivi</a></li>
+                                    <li> <a>Máy Giặt</a></li>
+                                    <li> <a>Điều Hòa</a></li>
+                                    <li> <a>Tủ Lạnh</a></li>
+                                </ul>
+                            </li>
                             <li class="divider"></li>
-                            <li><a class="dropdown-item" href="#">Điện Thoại-Phụ Kiện</a></li>
+                            <li><a class="dropdown-item" href="#">Điện Thoại-Phụ Kiện</a>
+                                <ul class="sub-menu">
+                                    <li class="active"> <a>Vsmart</a></li>
+                                    <li> <a>Iphone</a></li>
+                                    <li> <a>SamSung</a></li>
+                                    <li> <a>Tai Nghe</a></li>
+                                    <li> <a>Androi</a></li>
+                                </ul>
+                            </li>
                             <li class="divider"></li>
-                            <li><a class="dropdown-item" href="#">Máy Tính-LapTop</a></li>
+                            <li><a class="dropdown-item" href="#">Máy Tính-LapTop</a>
+                                <ul class="sub-menu">
+                                    <li class="active"> <a>MSI</a></li>
+                                    <li> <a>Asus</a></li>
+                                    <li> <a>Build PC</a></li>
+                                    <li> <a>ROG</a></li>
+                                    <li> <a>Predator</a></li>
+                                </ul>
+                            </li>
                             <li><a class="dropdown-item" href="#">Thể Thao-Du Lịch</a></li>
                             <li><a class="dropdown-item" href="#">Ô Tô-Xe Máy-Xe Đạp</a></li>
                             <li><a class="dropdown-item" href="#">Đồ Chơi</a></li>
@@ -59,14 +115,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./lien_he.html">Liên Hệ</a>
                     </li>
-
+                    <form class="form-inline mr-auto my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Siêu Mua Sắm ">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Siêu Mua Sắm  ">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+
             </div>
         </div>
+
+
     </nav>
 
     <br/>
@@ -406,7 +464,7 @@
 
                 <div class="col-lg-4">
                     <div class="card">
-                        <img class="card-img-top-1 img-fluid" src="./do_choi/leu_trai.jpg">
+                        <img class="card-img-top-1 img-fluid " src="./do_choi/leu_trai.jpg">
                         <div class="card-body">
                             <h6 class="card-title" style="text-align: center">Lều trong nhà</h6>
                             <p style="text-align: center" class="num4"> ₫370.200</p>
@@ -416,7 +474,7 @@
 
                 <div class="col-lg-4">
                     <div class="card">
-                        <img class="card-img-top-1  text-center" src="./do_choi/xe_tank.jpg">
+                        <img class="card-img-top-1 img-fluid  " src="./do_choi/xe_tank.jpg">
                         <div class="card-body">
                             <h6 class="card-title" style="text-align: center">Xe Tank đồ chơi</h6>
                             <p style="text-align: center" class="num4"> ₫130.200</p>
@@ -435,8 +493,6 @@
                 </div>
 
 
-
-
             </div>
 
         </div>
@@ -453,8 +509,25 @@
 
 
 
-
     <footer class="page-footer font-small" style="background-color:powderblue ">
+
+
+
+        <div class="container social">
+            <div class="row">
+                <div class="col-lg-7"></div>
+                <div class="col-lg-5">
+                    <a href="https://www.facebook.com/longbody.nguyen"> <i class="fab fa-facebook-square icon"></i> </a>
+                    <a href="https://www.youtube.com/channel/UCq4jLkYQyW3llnJm6fpaFGQ?view_as=subscriber"> <i class="fab fa-youtube icon"></i> </a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox"><i class="far fa-envelope"></i> </a>
+                    <a href="https://www.instagram.com/nglong3011/?hl=en"> <i class="fab fa-instagram icon"></i> </a>
+                    <a href="https://github.com/LongBody/LongBody.github.iso"> <i class="fab fa-github icon"></i> </a>
+
+                </div>
+            </div>
+        </div>
+
+        <hr/>
         <div class="container">
             <div class="row">
 

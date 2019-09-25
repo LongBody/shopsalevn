@@ -1,3 +1,8 @@
+ul,
+li {
+    list-style: none;
+}
+
 .a {
     text-decoration: none;
 }
@@ -17,7 +22,7 @@
 }
 
 .nav-item li a:hover {
-    background-color: powderblue;
+    color: coral;
 }
 
 .marg1 {
@@ -80,4 +85,83 @@
 
 .card:hover {
     border: solid 1px navy;
+}
+
+.social a {
+    font-size: 20px;
+    padding: 2rem;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-envelope {
+    color: #B23121;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.icon {
+    margin-top: 10px;
+}
+
+.nav1 .sub-menu {
+    display: none;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-right: 2px solid #E8E8E8;
+}
+
+.nav1 .sub-menu li a:hover {
+    color: coral;
+}
+
+.nav1 li {
+    position: relative;
+}
+
+.nav1 li :hover>.sub-menu {
+    display: block;
+}
+
+.nav1:hover .dropdown-menu {
+    display: block;
+}
+
+.nav1 .sub-menu1 {
+    display: none;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    padding: 7px 15px;
+    cursor: pointer;
+    border-right: 2px solid #E8E8E8;
+}
+
+.nav1 li :hover>.sub-menu1 {
+    display: block;
+}
+
+.nav1 .fa-angle-right {
+    display: none;
+}
+
+.nav1 li :hover>.fa-angle-right {
+    display: inline-block;
+    margin-left: 10%;
+    color: coral;
 }
