@@ -66,6 +66,7 @@ a.num2 {
 
 .card-img-top-1 {
     height: 20em;
+    width: 20em;
     object-fit: cover;
 }
 
@@ -102,4 +103,12 @@ button.xem_them:hover {
 
 .icon {
     margin-top: 10px;
+}
+
+#xem_them {
+    display: none;
+}
+
+#cla {
+    display: none;
 }

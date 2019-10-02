@@ -1,166 +1,182 @@
-ul,
-li {
-    list-style: none;
-}
-
-.a {
-    text-decoration: none;
-}
-
-.row a {
-    color: black;
-    text-decoration: none;
-}
-
-.navbar {
-    background-color: powderblue !important;
-}
-
-nav {
-    position: fixed;
-}
-
-.row a:hover {
-    font-family: unset;
-    color: black;
-}
-
-.nav-item li a:hover {
-    color: coral;
-}
-
-.marg1 {
-    height: 60px;
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.marg2 {
-    text-align: right;
-}
-
-.foot {
-    background-color: powderblue !important;
-}
-
-.bg2 {
-    background-color: #f5f5f5;
-    width: 100%;
-}
-
-.carousel-inner img {
-    width: 100%;
-    height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.nav-link {
-    color: black;
-}
-
-.num1 {
-    width: 100%;
-    height: 300px;
-}
-
-.num2 {
-    width: 150px;
-    height: 150px;
-}
-
-.num3 {
-    width: 100%;
-    height: 200px;
-}
-
-.num4 {
-    color: #ee4d2d;
-    font-size: 18px;
-}
-
-.card:hover {
-    border: solid 1px navy;
-}
-
-.social a {
-    font-size: 20px;
-    padding: 2rem;
-}
-
-.fa-facebook-square {
-    color: #3b5998;
-}
-
-.fa-youtube {
-    color: #bb0000;
-}
-
-.fa-envelope {
-    color: #B23121;
-}
-
-.fa-instagram {
-    color: #517fa4;
-}
-
-.icon {
-    margin-top: 10px;
-}
-
-.nav1 .sub-menu {
-    display: none;
-    top: 0;
-    left: 100%;
-    width: 100%;
-    position: absolute;
-    background-color: white;
-    padding: 5px 15px;
-    cursor: pointer;
-    border-right: 2px solid #E8E8E8;
-}
-
-.nav1 .sub-menu li a:hover {
-    color: coral;
-}
-
-.nav1 li {
-    position: relative;
-}
-
-.nav1 li :hover>.sub-menu {
-    display: block;
-}
-
-.nav1:hover .dropdown-menu {
-    display: block;
-}
-
-.nav1 .sub-menu1 {
-    display: none;
-    top: 0;
-    left: 100%;
-    width: 100%;
-    position: absolute;
-    background-color: white;
-    padding: 7px 15px;
-    cursor: pointer;
-    border-right: 2px solid #E8E8E8;
-}
-
-.nav1 li :hover>.sub-menu1 {
-    display: block;
-}
-
-.nav1 .fa-angle-right {
-    display: none;
-}
-
-.nav1 li :hover>.fa-angle-right {
-    display: inline-flex;
-    margin-left: 10%;
-    color: coral;
-}
+    ul,
+    li {
+        list-style: none;
+    }
+    
+    .a {
+        text-decoration: none;
+    }
+    
+    .row a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .navbar.navbar-expand-md {
+        background-color: powderblue !important;
+    }
+    
+    .posit {
+        position: fixed;
+    }
+    
+    nav {
+        position: fixed;
+    }
+    
+    .row a:hover {
+        font-family: unset;
+        color: black;
+    }
+    
+    .nav-item li a:hover {
+        color: coral;
+    }
+    
+    .marg1 {
+        height: 60px;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .marg2 {
+        text-align: right;
+    }
+    
+    .foot {
+        background-color: powderblue !important;
+    }
+    
+    .bg2 {
+        background-color: #f5f5f5;
+        width: 100%;
+    }
+    
+    .carousel-inner img {
+        width: 100%;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .nav-link {
+        color: black;
+    }
+    
+    .num1 {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .num2 {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .num3 {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .num4 {
+        color: #ee4d2d;
+        font-size: 18px;
+    }
+    
+    .card:hover {
+        border: solid 1px coral;
+    }
+    
+    .box .card {
+        transition: box-shadow .3s;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        background: #fff;
+        float: left;
+    }
+    
+    .box .card:hover {
+        box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    }
+    
+    .social a {
+        font-size: 20px;
+        padding: 2rem;
+    }
+    
+    .fa-facebook-square {
+        color: #3b5998;
+    }
+    
+    .fa-youtube {
+        color: #bb0000;
+    }
+    
+    .fa-envelope {
+        color: #B23121;
+    }
+    
+    .fa-instagram {
+        color: #517fa4;
+    }
+    
+    .icon {
+        margin-top: 10px;
+    }
+    
+    .nav1 .sub-menu {
+        display: none;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        padding: 5px 15px;
+        cursor: pointer;
+        border-right: 2px solid #E8E8E8;
+    }
+    
+    .nav1 .sub-menu li a:hover {
+        color: coral;
+    }
+    
+    .nav1 li {
+        position: relative;
+    }
+    
+    .nav1 li :hover>.sub-menu {
+        display: block;
+    }
+    
+    .nav1:hover .dropdown-menu {
+        display: block;
+    }
+    
+    .nav1 .sub-menu1 {
+        display: none;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        padding: 7px 15px;
+        cursor: pointer;
+        border-right: 2px solid #E8E8E8;
+    }
+    
+    .nav1 li :hover>.sub-menu1 {
+        display: block;
+    }
+    
+    .nav1 .fa-angle-right {
+        display: none;
+    }
+    
+    .nav1 li :hover>.fa-angle-right {
+        display: inline-flex;
+        margin-left: 10%;
+        color: coral;
+    }
